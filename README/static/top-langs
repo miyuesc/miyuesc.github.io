@@ -1,0 +1,162 @@
+
+      <svg
+        width="300"
+        height="285"
+        viewBox="0 0 300 285"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }
+  
+
+          
+    /* Animations */
+    @keyframes scaleInAnimation {
+      from {
+        transform: translate(-5px, 5px) scale(0);
+      }
+      to {
+        transform: translate(-5px, 5px) scale(1);
+      }
+    }
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
+        </style>
+
+        undefined
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#E4E2E2"
+          width="299"
+          fill="#fffefe"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >&#26368;&#24120;&#29992;&#30340;&#35821;&#35328;</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <svg data-testid="lang-items" x="25">
+      <g transform="translate(0, 0)">
+    <text data-testid="lang-name" x="2" y="15" class="lang-name">HTML</text>
+    <text x="215" y="34" class="lang-name">42.81%</text>
+    
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <rect
+          height="8"
+          fill="#e34c26"
+          rx="5" ry="5" x="0" y="0" 
+          data-testid="lang-progress"
+          width="42.81%"
+      >
+      </rect>
+    </svg>
+  
+  </g><g transform="translate(0, 40)">
+    <text data-testid="lang-name" x="2" y="15" class="lang-name">Vue</text>
+    <text x="215" y="34" class="lang-name">26.41%</text>
+    
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <rect
+          height="8"
+          fill="#2c3e50"
+          rx="5" ry="5" x="0" y="0" 
+          data-testid="lang-progress"
+          width="26.41%"
+      >
+      </rect>
+    </svg>
+  
+  </g><g transform="translate(0, 80)">
+    <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
+    <text x="215" y="34" class="lang-name">24.15%</text>
+    
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <rect
+          height="8"
+          fill="#f1e05a"
+          rx="5" ry="5" x="0" y="0" 
+          data-testid="lang-progress"
+          width="24.15%"
+      >
+      </rect>
+    </svg>
+  
+  </g><g transform="translate(0, 120)">
+    <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
+    <text x="215" y="34" class="lang-name">5.04%</text>
+    
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <rect
+          height="8"
+          fill="#563d7c"
+          rx="5" ry="5" x="0" y="0" 
+          data-testid="lang-progress"
+          width="5.04%"
+      >
+      </rect>
+    </svg>
+  
+  </g><g transform="translate(0, 160)">
+    <text data-testid="lang-name" x="2" y="15" class="lang-name">TypeScript</text>
+    <text x="215" y="34" class="lang-name">1.59%</text>
+    
+    <svg width="205" x="0" y="25">
+      <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
+      <rect
+          height="8"
+          fill="#2b7489"
+          rx="5" ry="5" x="0" y="0" 
+          data-testid="lang-progress"
+          width="2%"
+      >
+      </rect>
+    </svg>
+  
+  </g>
+    </svg>
+  
+        </g>
+      </svg>
+    
