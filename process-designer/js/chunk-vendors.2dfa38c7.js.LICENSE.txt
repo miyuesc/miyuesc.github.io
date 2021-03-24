@@ -16,12 +16,6 @@
 * BUILT: Fri Nov 30 2018 10:01:55 GMT+0100 (GMT+01:00)
 */
 
-/*! Hammer.JS - v2.0.7 - 2016-04-22
- * http://hammerjs.github.io/
- *
- * Copyright (c) 2016 Jorik Tangelder;
- * Licensed under the MIT license */
-
 /*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
