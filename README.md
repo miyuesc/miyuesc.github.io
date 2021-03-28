@@ -43,7 +43,9 @@
 <h3> 🔓 开源项目</h3>
 
 > 项目预览：
-> [Bpmn Process designer](https://miyuesc.github.io/process-designer/)
+> [Bpmn Process designer: Bpmn规则流程编辑器](https://miyuesc.github.io/process-designer/)
+>
+> [Data Visualization: 自定义数据可视化大屏](https://miyuesc.github.io/data-visualization/editor)
 
 <a href="https://github.com/miyuesc/bpmn-process-designer">![https://github.com/miyuesc/bpmn-process-designer](https://github-readme-stats.vercel.app/api/pin/?username=miyuesc&repo=bpmn-process-designer&show_icons=true&locale=cn)</a>
 <a href="https://github.com/miyuesc/documents">![https://github.com/miyuesc/documents](https://github-readme-stats.vercel.app/api/pin/?username=miyuesc&repo=documents&show_icons=true&locale=cn)</a>
