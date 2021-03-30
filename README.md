@@ -46,7 +46,7 @@
 >
 > [Bpmn Process designer: Bpmn规则流程编辑器](https://miyuesc.github.io/process-designer/)
 >
-> [Data Visualization: 自定义数据可视化大屏](https://miyuesc.github.io/data-visualization/editor)
+> [Data Visualization: 自定义数据可视化大屏](https://miyuesc.github.io/data-visualization/)
 
 <a href="https://github.com/miyuesc/bpmn-process-designer">![https://github.com/miyuesc/bpmn-process-designer](https://github-readme-stats.vercel.app/api/pin/?username=miyuesc&repo=bpmn-process-designer&show_icons=true&locale=cn)</a>
 <a href="https://github.com/miyuesc/documents">![https://github.com/miyuesc/documents](https://github-readme-stats.vercel.app/api/pin/?username=miyuesc&repo=documents&show_icons=true&locale=cn)</a>
