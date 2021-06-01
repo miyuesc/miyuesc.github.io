@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a3880"],{"0329":function(e,t,n){"use strict";n.r(t);var a=n("f2bf"),c={class:"text-area-component text-normal-title"};function o(e,t,n,o,r,i){return Object(a["E"])(),Object(a["i"])("div",c,"请输入标题")}var r=Object(a["o"])({name:"Subhead"});r.render=o;t["default"]=r}}]);
