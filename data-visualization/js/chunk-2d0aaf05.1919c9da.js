@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0aaf05"],{"12c1":function(e,n,t){"use strict";t.r(n);var c=t("8bbf"),a={class:"text-area-component text-headline"};function o(e,n,t,o,r,d){return Object(c["openBlock"])(),Object(c["createBlock"])("div",a,"请输入大标题")}var r=Object(c["defineComponent"])({name:"Subhead"});r.render=o;n["default"]=r}}]);
