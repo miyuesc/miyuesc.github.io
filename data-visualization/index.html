@@ -1,1 +1,59 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="./logo.ico"><title>Vue Data Visualization - 自定义大屏数据可视化项目</title><link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"><script src="https://unpkg.com/vue@next"></script><script src="https://unpkg.com/element-plus/lib/index.full.js"></script><script src="./iconfont.js"></script><link href="./css/about.56e005c0.css" rel="prefetch"><link href="./js/about.00b1e184.js" rel="prefetch"><link href="./js/chunk-2d0a3880.a01c3acc.js" rel="prefetch"><link href="./js/chunk-2d0aaf05.1919c9da.js" rel="prefetch"><link href="./js/chunk-2d0b381f.5f51e115.js" rel="prefetch"><link href="./js/chunk-2d0b8e66.930462ec.js" rel="prefetch"><link href="./js/chunk-2d0b9bc8.91f54b60.js" rel="prefetch"><link href="./js/chunk-2d0cb704.fcd1c9bb.js" rel="prefetch"><link href="./js/chunk-2d0ceb36.40fc96be.js" rel="prefetch"><link href="./js/chunk-2d0cf8a4.32d651f1.js" rel="prefetch"><link href="./js/chunk-2d0d5fe0.26b0bead.js" rel="prefetch"><link href="./js/chunk-2d0d7ae0.846a7245.js" rel="prefetch"><link href="./js/chunk-2d0de13f.0e5ff59e.js" rel="prefetch"><link href="./js/chunk-2d0e2664.a8629bb5.js" rel="prefetch"><link href="./js/chunk-2d216230.eb99abf3.js" rel="prefetch"><link href="./js/chunk-2d21a3d2.2c1a39a5.js" rel="prefetch"><link href="./js/chunk-2d21abd2.31bbecb8.js" rel="prefetch"><link href="./js/chunk-2d21de54.1385a145.js" rel="prefetch"><link href="./js/chunk-2d2306f4.c33b4b36.js" rel="prefetch"><link href="./js/chunk-32bddad1.8dac2cbe.js" rel="prefetch"><link href="./js/chunk-412219fa.7c1a53ab.js" rel="prefetch"><link href="./js/chunk-66909b31.2de96fd7.js" rel="prefetch"><link href="./js/chunk-fa1cbffc.190a3737.js" rel="prefetch"><link href="./css/app.259a790e.css" rel="preload" as="style"><link href="./css/chunk-vendors.4d5d56a8.css" rel="preload" as="style"><link href="./js/app.867fa57f.js" rel="preload" as="script"><link href="./js/chunk-vendors.ef5391e4.js" rel="preload" as="script"><link href="./css/chunk-vendors.4d5d56a8.css" rel="stylesheet"><link href="./css/app.259a790e.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but vue-data-visualization doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://webapi.amap.com/maps?v=2.0&key=0d17e9413144a9e08e0f223c135979f5"></script><script src="https://webapi.amap.com/loca?v=2.0.0&key=0d17e9413144a9e08e0f223c135979f5"></script><script src="./js/chunk-vendors.ef5391e4.js"></script><script src="./js/app.867fa57f.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="./logo.ico" />
+    <title>Vue Data Visualization - 自定义大屏数据可视化项目</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/element-plus/dist/index.full.js"></script>
+    <script src="./iconfont.js"></script>
+    <link href="./css/about.56e005c0.css" rel="prefetch" />
+    <link href="./js/about.00b1e184.js" rel="prefetch" />
+    <link href="./js/chunk-2d0a3880.a01c3acc.js" rel="prefetch" />
+    <link href="./js/chunk-2d0aaf05.1919c9da.js" rel="prefetch" />
+    <link href="./js/chunk-2d0b381f.5f51e115.js" rel="prefetch" />
+    <link href="./js/chunk-2d0b8e66.930462ec.js" rel="prefetch" />
+    <link href="./js/chunk-2d0b9bc8.91f54b60.js" rel="prefetch" />
+    <link href="./js/chunk-2d0cb704.fcd1c9bb.js" rel="prefetch" />
+    <link href="./js/chunk-2d0ceb36.40fc96be.js" rel="prefetch" />
+    <link href="./js/chunk-2d0cf8a4.32d651f1.js" rel="prefetch" />
+    <link href="./js/chunk-2d0d5fe0.26b0bead.js" rel="prefetch" />
+    <link href="./js/chunk-2d0d7ae0.846a7245.js" rel="prefetch" />
+    <link href="./js/chunk-2d0de13f.0e5ff59e.js" rel="prefetch" />
+    <link href="./js/chunk-2d0e2664.a8629bb5.js" rel="prefetch" />
+    <link href="./js/chunk-2d216230.eb99abf3.js" rel="prefetch" />
+    <link href="./js/chunk-2d21a3d2.2c1a39a5.js" rel="prefetch" />
+    <link href="./js/chunk-2d21abd2.31bbecb8.js" rel="prefetch" />
+    <link href="./js/chunk-2d21de54.1385a145.js" rel="prefetch" />
+    <link href="./js/chunk-2d2306f4.c33b4b36.js" rel="prefetch" />
+    <link href="./js/chunk-32bddad1.8dac2cbe.js" rel="prefetch" />
+    <link href="./js/chunk-412219fa.7c1a53ab.js" rel="prefetch" />
+    <link href="./js/chunk-66909b31.2de96fd7.js" rel="prefetch" />
+    <link href="./js/chunk-fa1cbffc.190a3737.js" rel="prefetch" />
+    <link href="./css/app.259a790e.css" rel="preload" as="style" />
+    <link href="./css/chunk-vendors.4d5d56a8.css" rel="preload" as="style" />
+    <link href="./js/app.867fa57f.js" rel="preload" as="script" />
+    <link href="./js/chunk-vendors.ef5391e4.js" rel="preload" as="script" />
+    <link href="./css/chunk-vendors.4d5d56a8.css" rel="stylesheet" />
+    <link href="./css/app.259a790e.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript
+      ><strong
+        >We're sorry but vue-data-visualization doesn't work properly without
+        JavaScript enabled. Please enable it to continue.</strong
+      ></noscript
+    >
+    <div id="app"></div>
+    <script src="https://webapi.amap.com/maps?v=2.0&key=0d17e9413144a9e08e0f223c135979f5"></script>
+    <script src="https://webapi.amap.com/loca?v=2.0.0&key=0d17e9413144a9e08e0f223c135979f5"></script>
+    <script src="./js/chunk-vendors.ef5391e4.js"></script>
+    <script src="./js/app.867fa57f.js"></script>
+  </body>
+</html>
