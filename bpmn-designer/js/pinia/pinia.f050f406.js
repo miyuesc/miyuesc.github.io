@@ -1,6 +1,6 @@
 import{G as t,r as a,y as s}from"../@vue/@vue.df6dbca6.js";
 /*!
-  * pinia v2.1.3
+  * pinia v2.1.4
   * (c) 2023 Eduardo San Martin Morote
   * @license MIT
   */
