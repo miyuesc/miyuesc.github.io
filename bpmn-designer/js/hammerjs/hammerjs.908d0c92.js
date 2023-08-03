@@ -1,4 +1,4 @@
-import{g as t}from"../@babel/@babel.8b4586d6.js";var e,i={exports:{}};
+import{g as t}from"../@babel/@babel.52245d71.js";var e,i={exports:{}};
 /*! Hammer.JS - v2.0.7 - 2016-04-22
  * http://hammerjs.github.io/
  *
