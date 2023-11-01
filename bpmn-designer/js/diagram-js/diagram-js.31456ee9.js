@@ -90,9 +90,7 @@ import{I as t}from"../didi/didi.f65e5563.js";import{e}from"../inherits-browser/i
               onMouseEnter=${()=>w(t)}
               onMouseLeave=${()=>w(null)}
             >
-              ${t.imageUrl?nt`
-                <img class="djs-popup-entry-icon" src=${t.imageUrl} alt="" />
-              `:null}
+            ${t.imageUrl&&nt`<img class="djs-popup-entry-icon" src=${t.imageUrl} alt="" />`||t.imageHtml&&nt`<div class="djs-popup-entry-icon" dangerouslySetInnerHTML=${{__html:t.imageHtml}} />`}
 
               ${t.label?nt`
                 <span class="djs-popup-label">${t.label}</span>
