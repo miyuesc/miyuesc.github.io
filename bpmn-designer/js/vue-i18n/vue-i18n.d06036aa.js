@@ -1,4 +1,4 @@
-import{r as e,a as t}from"../@intlify/@intlify.145c959c.js";import{r as a}from"../vue/vue.be544d17.js";var n={},l=e,r=t,s=a;
+import{r as e,a as t}from"../@intlify/@intlify.145c959c.js";import{r as a}from"../vue/vue.ed7b22aa.js";var n={},l=e,r=t,s=a;
 /*!
   * vue-i18n v9.7.1
   * (c) 2023 kazuya kawaguchi
